@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    }
+    
+    header {
+    background-color: #ff69b4; /* Rosa */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    }
+    
+    nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #ffcccb; /* Rosa claro */
+    text-align: center;
+    }
+    
+    nav ul li {
+    display: inline;
+    padding: 10px 20px;
+    }
+    
+    nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    }
+    
+    section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1, h2 {
+    color: #ff69b4; /* Rosa */
+    }
+    
+    footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    }
+    
+    header {
+    background: url('festa.jpg') no-repeat center;
+    background-size: cover;
+    height: 200px;
+    text-align: center;
+    color: white;
+    padding: 50px;
+    }
+    
+    form {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    input, textarea {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    }
+    
+    button {
+    background-color: #ff69b4; /* Rosa */
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    }
+    
